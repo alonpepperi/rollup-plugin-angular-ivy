@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-angular-ivy-ivy",
+  "name": "rollup-plugin-angular-ivy",
   "version": "0.6.0",
   "description": "Angular9 styles inliner",
   "main": "dist/rollup-plugin-angular-ivy.js",
@@ -26,7 +26,7 @@
   "author": "Felix Itzenplitz (Edited for Angular Ivy by Alon Noy)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cebor/rollup-plugin-angular-ivy-ivy.git"
+    "url": "git+https://github.com/cebor/rollup-plugin-angular-ivy.git"
   },
   "license": "MIT",
   "dependencies": {

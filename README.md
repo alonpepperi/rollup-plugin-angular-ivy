@@ -1,4 +1,4 @@
-# rollup-plugin-angular-ivy-ivy
+# rollup-plugin-angular-ivy
 Angular9 (Ivy) styles inliner for rollup
 
 ## Looking for new maintainer
@@ -6,13 +6,13 @@ I have no time to maintain this plugin anymore. So im looking for a new Maintain
 
 ## Installation
 ```bash
-npm install --save-dev rollup-plugin-angular-ivy-ivy
+npm install --save-dev rollup-plugin-angular-ivy
 ```
 
 ## Example
 ```javascript
 // rollup.config.js
-import angular from 'rollup-plugin-angular-ivy-ivy';
+import angular from 'rollup-plugin-angular-ivy';
 import typescript from 'rollup-plugin-typescript';
 import alias from 'rollup-plugin-alias';
 import nodeResolve from 'rollup-plugin-node-resolve';
