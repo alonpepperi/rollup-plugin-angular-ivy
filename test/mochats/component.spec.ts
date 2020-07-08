@@ -4,7 +4,7 @@ import * as commonjs from 'rollup-plugin-commonjs';
 import * as nodeResolve from 'rollup-plugin-node-resolve';
 import * as typescript from 'rollup-plugin-typescript';
 import { expect, assert } from 'chai';
-import * as angular from '../../dist/rollup-plugin-angular.js';
+import * as angular from '../../dist/rollup-plugin-angular-ivy.js';
 import * as colors from 'colors';
 
 process.chdir('test');
@@ -23,7 +23,7 @@ const bundle = () => {
   });
 }
 
-describe('rollup-plugin-angular', () => {
+describe('rollup-plugin-angular-ivy', () => {
   console.info(`-------------------`);
   console.info(colors.blue(`start test mocha:ts`));
   console.info(`-------------------`);

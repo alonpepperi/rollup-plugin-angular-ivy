@@ -7,7 +7,7 @@ deploy:
     secure: bU+7l8jBtPV7LAxN7NimbrSIEM+GvDU5CpVbq4T+ix3wzkYdaCaOLS60kJNoS/cB5sAAENZZRkyBLuwDJZ/u38IrVc3k2p6U/eu7i+5ErvHB6v6z4yB6yOiFqYbEloPWpvROX3KN2AQkot8TNl81HO2cTG0vHEipusXh8g/xIG/62gJvHXosDEySd7Wfmy0cDijZUD7UDbTm+INioToHvI5UdSq35JdBFblALP6eRBqE+WtW12Nql2/oDTtWblBLopFhXqptpJINAYZL3YclPRmGycfvhqN2ygjdEo6bltvdphTJU9QTua2XFrwer6dJI8bKDt4cmJUsTEbAVRMhjCWW4zGiRQx9C4GnhccH8+0mupvLdrkPEgvcwCUaHDyDAJ++UgC/b9PglrZUKP/ol6KdN2fCBmwf5zrNjygy0OYWPsiUrd1PiqDF3KkLMbOoymEUI7nNQ6oTJDu8L43GSuaysKUYUOafiPqoSFes144BZ/nlRpIiDjmdo1AhuzFDry9kuQYeHk6frEswY9aQ43NfDtzHygs35FPZ7MGtpNWbFTnp72MnJ6MdDE38zz8YparrkH/sX+JBHWVsmE5aYwuphtL4waeTqZRZq1S//dZLp7WSz2jd43h13A/h3ggkuIp4f8sw8FQtqmWZwehFnnYHw7+KR4+u2uuTrwtMaf4=
   on:
     tags: true
-    repo: cebor/rollup-plugin-angular
+    repo: cebor/rollup-plugin-angular-ivy
 before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"

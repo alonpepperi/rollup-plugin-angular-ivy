@@ -1,9 +1,9 @@
 {
-  "name": "rollup-plugin-angular-ivy",
+  "name": "rollup-plugin-angular-ivy-ivy",
   "version": "0.6.0",
   "description": "Angular9 styles inliner",
-  "main": "dist/rollup-plugin-angular.js",
-  "module": "dist/rollup-plugin-angular.esm.js",
+  "main": "dist/rollup-plugin-angular-ivy.js",
+  "module": "dist/rollup-plugin-angular-ivy.esm.js",
   "scripts": {
     "build": "rollup -c",
     "prepublish": "npm run build",
@@ -26,7 +26,7 @@
   "author": "Felix Itzenplitz (Edited for Angular Ivy by Alon Noy)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cebor/rollup-plugin-angular-ivy.git"
+    "url": "git+https://github.com/cebor/rollup-plugin-angular-ivy-ivy.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -55,6 +55,7 @@
     "karma": "^1.7.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-coverage": "^1.1.1",
+
     "karma-firefox-launcher": "^1.0.1",
     "karma-jasmine": "^1.1.0",
     "karma-rollup-preprocessor": "^4.0.4",
@@ -72,9 +73,9 @@
     "zone.js": "^0.8.16"
   },
   "bugs": {
-    "url": "https://github.com/cebor/rollup-plugin-angular/issues"
+    "url": "https://github.com/cebor/rollup-plugin-angular-ivy/issues"
   },
-  "homepage": "https://github.com/cebor/rollup-plugin-angular#readme",
+  "homepage": "https://github.com/cebor/rollup-plugin-angular-ivy#readme",
   "directories": {
     "test": "test"
   }

@@ -1,7 +1,7 @@
 const { rollup } = require('rollup');
 const assert = require('chai').assert;
 const expect = require('chai').expect;
-const angular = require('../../dist/rollup-plugin-angular.js');
+const angular = require('../../dist/rollup-plugin-angular-ivy.js');
 const external = Object.keys(require('./../../package.json').dependencies).concat(['fs', 'path']);
 const colors = require('colors');
 const sass = require('node-sass');
@@ -16,7 +16,7 @@ const htmlminOpts = {
 
 process.chdir('test');
 
-describe('rollup-plugin-angular', () => {
+describe('rollup-plugin-angular-ivy', () => {
   console.info(`-------------------`);
   console.info(colors.blue(`start test mocha:js`));
   console.info(`-------------------`);

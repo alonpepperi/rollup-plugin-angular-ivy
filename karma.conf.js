@@ -1,6 +1,6 @@
 // Karma configuration
 
-const angular = require('./dist/rollup-plugin-angular.js');
+const angular = require('./dist/rollup-plugin-angular-ivy.js');
 const commonjs = require('rollup-plugin-commonjs');
 const nodeResolve = require('rollup-plugin-node-resolve');
 const typescript = require('rollup-plugin-typescript');

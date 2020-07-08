@@ -7,7 +7,7 @@ export default {
   plugins: [ buble() ],
   external: external,
   targets: [
-    { dest: 'dist/rollup-plugin-angular.js', format: 'cjs' },
-    { dest: 'dist/rollup-plugin-angular.esm.js', format: 'es' }
+    { dest: 'dist/rollup-plugin-angular-ivy.js', format: 'cjs' },
+    { dest: 'dist/rollup-plugin-angular-ivy.esm.js', format: 'es' }
   ]
 };
